@@ -1,10 +1,11 @@
 <!--
 theme name:     	RetroRama
 version:        	1.75
-author: 			M00DY (M.J.Aman) https://www.instagram.com/mjaman/
+author: 		M00DY (M.J.Aman) https://www.instagram.com/mjaman/
+contributed by:		Firebird_WS6
 based on:         	Retrorama by Filipe Bello (filipebello@yahoo.com.br)
 license:        	creative commons CC-BY-NC-SA
-1.0 to 1.3 			- Tutorial from Matt Kennedy, you can view it on https://github.com/RetroPie/RetroPie-Setup/wiki/Creating-Your-Own-EmulationStation-Theme
+1.0 to 1.3 		- Tutorial from Matt Kennedy, you can view it on https://github.com/RetroPie/RetroPie-Setup/wiki/Creating-Your-Own-EmulationStation-Theme
 1.4	and foward		- Basevid theme from Matt Kennedy. This dude rock!
 font: comic.otf
 -->
@@ -95,8 +96,8 @@ font: comic.otf
 	<scrollSound>./_art/scroll_sound.wav</scrollSound>
 	<alignment>left</alignment>
 	<pos>0.04 0.23</pos>
-	<size>0.415 0.674</size>
-	<fontSize>0.04</fontSize>
+	<size>0.415 0.67</size>
+	<fontSize>0.037</fontSize>
 	<lineSpacing>1</lineSpacing>
 	<horizontalMargin>0.04</horizontalMargin>
 </textlist>
