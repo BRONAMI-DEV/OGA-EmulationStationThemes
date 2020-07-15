@@ -109,7 +109,7 @@ license: creative commons CC-BY-NC-SA
       <!-- try png -->
       <path>./art/logos/${system.theme}.png</path>
       <!-- try svg -->
-      <path>./art/logos/${system.theme}.svg</path>
+      <!--<path>./art/logos/${system.theme}.svg</path>-->
       <!-- check if lang resources exist -->
       <path>./art/logos/${system.theme}-${lang}.png</path>
       <path>./art/logos/${system.theme}-${lang}.svg</path>  
@@ -138,6 +138,7 @@ license: creative commons CC-BY-NC-SA
   <subset name="systemview" displayName="${systemViewName}">
     <include name="big">./art/systemview/big.xml</include>
     <include name="small">./art/systemview/small.xml</include>
+	<include name="logos">./art/systemview/logos.xml</include>
   </subset>
   <!-- Subset option for System view background -->
   <subset name="systembackground" displayName="${systemBackgroundName}">

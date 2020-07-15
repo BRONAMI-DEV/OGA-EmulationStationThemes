@@ -13,12 +13,6 @@
       <logoScale>1.2</logoScale>
       <zIndex>20</zIndex>
     </carousel>
-    <image name="logo">
-      <!-- if system2 exists, take this version -->
-      <path>./art/logos/${system.theme}2.svg</path>
-      <reflexion>0.16 0.0</reflexion>
-      <reflexionOnFrame>true</reflexionOnFrame>
-    </image>
     <text name="systemInfo">
       <pos>0 0.66</pos>
       <size>1 0.25</size>
