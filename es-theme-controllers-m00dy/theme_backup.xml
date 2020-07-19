@@ -139,7 +139,6 @@ license: creative commons CC-BY-NC-SA
     <include name="big">./art/systemview/big.xml</include>
     <include name="small">./art/systemview/small.xml</include>
 	<include name="logos">./art/systemview/logos.xml</include>
-	<include name="panals">./art/systemview/panals.xml</include>
   </subset>
   <!-- Subset option for System view background -->
   <subset name="systembackground" displayName="${systemBackgroundName}">

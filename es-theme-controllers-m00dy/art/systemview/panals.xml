@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+  <formatVersion>7</formatVersion>
+  <view name="system">
+    <carousel name="systemcarousel">
+      <color>00000000</color>
+      <colorEnd>00000090</colorEnd>
+      <systemInfoDelay>300</systemInfoDelay>
+      <pos>0 0</pos>
+      <size>1 1</size>
+      <maxLogoCount>3</maxLogoCount>
+      <logoSize>0.78 0.78</logoSize>
+      <logoScale>1.5</logoScale>
+      <zIndex>20</zIndex>
+    </carousel>
+	<!--<image name="background">
+      <tile>true</tile>
+      <pos>0 0</pos>
+      <origin>0 0</origin>
+      <size>1 1</size>
+	  <path>./art/bg.png</path>
+	  <zIndex>11</zIndex>
+    </image>-->
+    <image name="logo">
+      <!-- if system2 exists, take this version -->
+      <path>./art/logos/${system.theme}3.png</path>
+      <reflexion>0.16 0.0</reflexion>
+      <reflexionOnFrame>true</reflexionOnFrame>
+    </image>
+    <text name="systemInfo">
+      <pos>0 0.66</pos>
+      <size>1 0.25</size>
+      <backgroundColor>0000FF00</backgroundColor>
+      <color>${systemInfoColor}</color>
+      <glowColor>${glowColor}</glowColor>
+      <glowSize>2</glowSize>
+      <reflexion>0.20 0.0</reflexion>
+    </text>
+    <image name="carousel-inner" extra="true">
+      <visible>false</visible>
+    </image>
+    <image name="carousel-shadow" extra="true">
+      <visible>false</visible>
+    </image>
+  </view>
+</theme>
